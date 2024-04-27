@@ -7,6 +7,13 @@ settings:
 importers:
 
   .:
+    dependencies:
+      csv-parse:
+        specifier: ^5.5.5
+        version: 5.5.5
+      csv-stringify:
+        specifier: ^6.4.6
+        version: 6.4.6
     devDependencies:
       typescript:
         specifier: ^5.2.2
@@ -238,6 +245,12 @@ packages:
   '@types/estree@1.0.5':
     resolution: {integrity: sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==}
 
+  csv-parse@5.5.5:
+    resolution: {integrity: sha512-erCk7tyU3yLWAhk6wvKxnyPtftuy/6Ak622gOO7BCJ05+TYffnPCJF905wmOQm+BpkX54OdAl8pveJwUdpnCXQ==}
+
+  csv-stringify@6.4.6:
+    resolution: {integrity: sha512-h2V2XZ3uOTLilF5dPIptgUfN/o2ia/80Ie0Lly18LAnw5s8Eb7kt8rfxSUy24AztJZas9f6DPZpVlzDUtFt/ag==}
+
   esbuild@0.20.2:
     resolution: {integrity: sha512-WdOOppmUNU+IbZ0PaDiTst80zjnrOkyJNHoKupIcVyU8Lvla3Ugx94VzkQ32Ijqd7UhHJy75gNWDMUekcrSJ6g==}
     engines: {node: '>=12'}
@@ -422,6 +435,10 @@ snapshots:
     optional: true
 
   '@types/estree@1.0.5': {}
+
+  csv-parse@5.5.5: {}
+
+  csv-stringify@6.4.6: {}
 
   esbuild@0.20.2:
     optionalDependencies:
